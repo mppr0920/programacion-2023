@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
+
+	<head>
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    	<style>
+        
         * {
-           margin: 0px;
-           padding:0px;
+        	margin: 0px;
+            padding:0px;
         }
         
-        header nav ul li a{
-            color:black;
-            tex-decoration:none; 
+        header nav ul li a {
+        	color:#FBA2FC;
+            text-decoration:none;
+            
            }
+           
+        header nav ul li {
+        	display: black
+            ;
+        }
         
-         header nav ul li {
-            display: inline;
-            
-          }
-           header nav {
-           background-color:red;
-           } 
-            
+        header nav {
+        	background-color:#000000 ;
+            }
+            .container{
+               border: 2px solid black;
+            padding:14px;
+            background-color:#FBA2FC;
+        }
         
-        </style>
-
-
-
-<title>Page Title</title>
-</head>
+        /*Aquí hacemos un Media Querie*/
+        @media screen and (max-width: 480px){
+        
+        .container {
+        	background-color: #FBA2FC;
+        }
+        
+        }
+        /*NOTEN COMO A CAMBIAR EL ANCHO, CAMBIA EL COLOR*/
+</style>
+    	
+		<title>Page Title</title>
+	</head>
 <body>
-    <header>
-         <nav>
-             <ul>
-                 <li><a href="#">link 1</a></li>
-                 <li><a href="#">link 2</a></li>
-                 <li><a href="#">link 3</a></li>
-                 <li><a href="#">link 4</a></li>
-             </ul>
-         </nav>
+	<header>
+    	<nav>
+        	<ul>
+            	<li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </nav>
     </header>
+    
+    <section>
+    	<div class="container">
+        	<div>
+            	<a href="#">Hola soy un link</a>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
 
-     <section>
-          <div class="container">
-          <div>
-              <a href="#">Hola soy un  link</a>
-          </div>
-          <div></div>
-          <div></div>
-          
-          </div>
-     </section>
-     
-     <section>
-          <div class="container">
-          <div></div>
-          <div></div>
-          <div></div>
-          
-          </div>
-     </section>
-     
-     <section>
-          <div class="container">
-          <div></div>
-          <div></div>
-          <div></div>
-          
-          </div>
-     </section>
-   
+<section>
+    	<div class="container">
+        	<div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    
+        <section>
+    	<div class="container">
+        	<div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+
 </body>
 </html>
